@@ -1,0 +1,1 @@
+diff <(git diff) <(git stash show -p stash@{0})
