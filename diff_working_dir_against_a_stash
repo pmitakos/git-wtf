@@ -1,1 +1,10 @@
 diff <(git diff) <(git stash show -p stash@{0})
+
+colordiff <(git diff) <(git stash show -p stash@{0})
+
+PS: To use colordiff
+
+Installation:
+
+Ubuntu/Debian: sudo apt-get install colordiff
+OS X: brew install colordiff
